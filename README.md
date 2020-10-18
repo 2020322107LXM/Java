@@ -1,13 +1,13 @@
-# G202 2020322107 李雪明 
+## G202 2020322107 李雪明 
 # Java
 # 实验一
-## 实验内容：用四个类PC、CPU、HardDisk、Test描述计算机CPU的速度和硬盘容量。Test是主类。
+## 实验内容：用四个类PC、CPU、HardDisk、Test描述计算机CPU的速度和硬盘容量，Test是主类。
 # 实验方法：
 ## 主类main方法中
-                 创建CPU对象cpu，cpu将自己的speed设置为2200，id定义cpu的类型
-                 创建HardDisk对象disk，将自己的amount设置为200，大小为200
-                 创建PC对象pc。
-                 pc调用setCPU（CPU c）方法，实参为cpu，调用setHardDisk（HardDisk h）方法，实参为disk，调用show（）方法。
+                 创建CPU对象cpu，cpu将自己的speed设置为2200，新创id表示名称
+                 创建HardDisk对象disk，将自己的amount设置为200，大小为200，新创type表示类型
+                 创建PC对象pc
+                 pc调用setCPU（CPU c）方法，实参为cpu，调用setHardDisk（HardDisk h）方法，实参为disk，调用show（）方法
 ## 公共类 CPU 
                private int speed;
                private string  id;
@@ -51,5 +51,5 @@
                pc.setCPU（cpu）;
                pc.setHardDisk（HD）; 
                                                       
-# 实验结果cpu速度：2200  硬盘容量：200  cpu价格：500  硬盘大小：30   
+# 实验结果 cpu速度：2200  硬盘容量：200  cpu价格：500  硬盘大小：30   
 # 感想：了解对象的定义与使用，体验private的用法
